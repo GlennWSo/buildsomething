@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="275"
+   height="395"
+   viewBox="0 0 275 395"
+   style="overflow:visible"
+   data-bbox="118.85318667778763 58.398648002120666 274.2936266444247 395.2027039957586"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="cooltool.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="1.6290957"
+     inkscape:cx="255.97024"
+     inkscape:cy="216.99155"
+     inkscape:window-width="1920"
+     inkscape:window-height="1050"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5">
+    <sodipodi:guide
+       position="-537.75148,254.57988"
+       orientation="1,0"
+       id="guide5"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     transform="matrix(1.3316546,0,0,1.3275526,-102.23112,-41.89756)"
+     data-uid="o-0b14b17d3ebd4cd6aa5efe0a965e63bf"
+     id="g5"
+     inkscape:label="g5"
+     style="display:inline">
+    <svg
+       version="1.1"
+       id="Calque_1"
+       x="0px"
+       y="0px"
+       viewBox="0 0 360 360"
+       enable-background="new 0 0 360 360"
+       width="360"
+       height="360"
+       data-uid="o-7498c2a5dcfc4c87b2b16024a4075fef"
+       inkscape:label="Calque_1">
+      <g
+         data-uid="o-c15b536e23524149a00a39b9add6a784"
+         id="g4">
+        <g
+           data-uid="o-25d070e0cdb143fba7ca28980844246c"
+           id="g1">
+          <path
+             class="st0"
+             d="m 219.8,266.8 c 11.19,-10.5 17.1,-25.2 16.72,-40.11 l 31.93,-19.16 8.98,-5.26 5.85,21.09 -13.23,1.94 c 0.17,5.37 -0.14,10.73 -0.95,16.01 l 13.1,3.31 -4.36,17.27 -13.29,-3.35 c -1.86,4.96 -4.15,9.77 -6.9,14.35 l 11.06,8.23 -10.64,14.29 -11.17,-8.31 c -3.56,3.83 -7.46,7.4 -11.78,10.6 l 7.15,11.97 -22.47,9.56 0.01,-12.44 c 0,0 0,0 -0.01,0 z"
+             fill="#25274c"
+             data-uid="o-a7ddc4661dee41d9a42df561d8353f0e"
+             id="path1" />
+        </g>
+        <g
+           data-uid="o-d7095a32819a436f8117725b3863a744"
+           id="g2">
+          <path
+             class="st0"
+             d="m 140.24,266.8 c -11.19,-10.5 -17.1,-25.2 -16.72,-40.11 L 91.6,207.53 82.62,202.27 76.77,223.36 90,225.3 c -0.17,5.37 0.14,10.73 0.95,16.01 l -13.1,3.31 4.36,17.27 13.29,-3.35 c 1.86,4.96 4.15,9.77 6.9,14.35 l -11.06,8.23 10.64,14.29 11.17,-8.31 c 3.56,3.83 7.46,7.4 11.78,10.6 l -7.15,11.97 22.47,9.56 -0.01,-12.44 c 0,0 0,0 0.01,0 V 266.8 Z"
+             fill="#25274c"
+             data-uid="o-9f5801461f994a0ea7b50d39c3f76bcd"
+             id="path2" />
+        </g>
+        <path
+           class="st0"
+           d="M 278.78,89.05 C 277.39,83.12 272.84,67.24 258.12,53.76 243.73,40.57 227.95,37.3 221.89,36.36 c 0,40.69 0,81.38 0,122.08 l -42.66,28.44 -42.66,-28.44 V 36.36 c -7.8,2.81 -20.55,8.52 -33.07,19.97 C 90.52,68.2 83.63,80.9 80.18,88.55 c -0.17,32.78 -0.34,65.56 -0.5,98.33 l 34.75,20.85 c 22.56,13.53 36.36,37.91 36.36,64.22 v 57.15 h 28.44 28.44 v -57.15 c 0,-26.31 13.8,-50.68 36.36,-64.22 l 34.75,-20.85 V 89.05 Z"
+           fill="#25274c"
+           data-uid="o-bad3fd79b5ab464c9907cd0cae2be43b"
+           id="path3" />
+        <path
+           class="st1"
+           fill="#f0b71a"
+           data-type="polygon"
+           d="m 186.82,31.56 -29.2,51.03 h 14.6 l -14.6,41.67 h 18.89 l -8.09,38.22 29.25,-52.59 -17.02,0.19 14.9,-39.62 -17.96,0.11 z"
+           data-uid="o-4eaad9cf6221459a9275239cf1bc8a00"
+           id="path4" />
+      </g>
+    </svg>
+  </g>
+</svg>

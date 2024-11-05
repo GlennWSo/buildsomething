@@ -15,10 +15,10 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-juice_logo_name = "Juice"
-juice_logo_path = "juice.svg"
+juice_logo_name = "GWS Consulting"
+juice_logo_path = "cooltool.svg"
 juice_extra_menu = [
-    { title = "Github", link = "https://github.com/huhu/juice"}
+    { title = "Github", link = "https://github.com/glennwso"}
 ]
 repository_url = "https://github.com/huhu/juice"
 
