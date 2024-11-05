@@ -11,7 +11,7 @@ The site is under construction
 print("Hello, World!")
 ```
 
-## Markdown is Awsome
+# Markdown is Awsome
 
 doler ipsum
 
