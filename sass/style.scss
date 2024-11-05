@@ -1,0 +1,29 @@
+div.nav-outlinks {
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-flex-flow: wrap;
+  flex-flow: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  gap: 1em;
+  /* display: -webkit-box; */
+  /* display: -moz-box; */
+  /* display: -webkit-flex; */
+  display: flex;
+}
+
+footer div.nav-outlinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.inline-icon-container svg {
+  vertical-align: middle;
+  fill: #fff;
+  width: 1rem;
+  height: 1rem;
+}

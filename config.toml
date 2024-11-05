@@ -1,5 +1,6 @@
 # The URL the site will be built for
 base_url = "https://glennwso.com"
+theme = "juice"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -14,3 +15,14 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+juice_logo_name = "Juice"
+juice_logo_path = "juice.svg"
+juice_extra_menu = [
+    { title = "Github", link = "https://github.com/huhu/juice"}
+]
+repository_url = "https://github.com/huhu/juice"
+
+# meta_title = "The cool TeX automation tool"
+# meta_description = "arara is a TeX automation tool based on directives and rules."
+footer = "arara by the Island of TeX"
+
