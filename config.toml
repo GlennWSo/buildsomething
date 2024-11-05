@@ -16,7 +16,7 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 juice_logo_name = "GWS Consulting"
-juice_logo_path = "cooltool.svg"
+juice_logo_path = "flat_blocks.svg"
 juice_extra_menu = [
     { title = "Github", link = "https://github.com/glennwso"}
 ]
