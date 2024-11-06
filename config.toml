@@ -26,9 +26,9 @@ juice_logo_path = "flat_blocks.svg"
 slogan = "Let's Build Something Together!"
 intro = "Need help with Product development or IT? \n You have come to right place"
 
-juice_extra_menu = [
-    { title = "Github", link = "https://github.com/glennwso"}
-]
+# juice_extra_menu = [
+#     { title = "Github", link = "https://github.com/glennwso"}
+# ]
 repository_url = "https://github.com/huhu/juice"
 
 # meta_title = "The cool TeX automation tool"

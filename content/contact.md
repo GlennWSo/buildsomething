@@ -1,7 +1,7 @@
 +++
 title = "Contact"
 description = "How to get in contact"
-weight = 2
+weight = 10
 template = "contact.html"
 [extra]
 disable_toc = true
