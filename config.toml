@@ -2,11 +2,18 @@
 base_url = "https://glennwso.com"
 theme = "juice"
 
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+
+default_language = "en"
+[languages.sv]
+build_search_index = true
+# generate_feeds = true # there will be a feed for swedish content
 
 [markdown]
 # Whether to do syntax highlighting
@@ -24,14 +31,16 @@ juice_logo_name = "GWS Consulting"
 juice_logo_path = "flat_blocks.svg"
 
 slogan = "Let's Build Something Together!"
-intro = "Need help with Product development or IT? \n You have come to right place"
 
 # juice_extra_menu = [
 #     { title = "Github", link = "https://github.com/glennwso"}
 # ]
 repository_url = "https://github.com/huhu/juice"
+# intro = "Need help with Product development or IT? \n You have come to right place"
 
 # meta_title = "The cool TeX automation tool"
 # meta_description = "arara is a TeX automation tool based on directives and rules."
-footer = "arara by the Island of TeX"
+# footer = "arara by the Island of TeX"
+
+
 

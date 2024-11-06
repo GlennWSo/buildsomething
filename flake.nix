@@ -40,6 +40,7 @@
           imagemagick
           ffmpeg
           zola
+          translate-shell
         ];
       };
     });

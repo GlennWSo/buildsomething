@@ -1,7 +1,7 @@
 +++
 sort_by = "weight"
 [extra]
-intro = "Need help with Product development or IT? <br> You have come to right place"
+intro = "Behöver du hjälp med produktutveckling eller IT? <br> Du har kommit till rätt plats"
 +++
 
 
@@ -11,7 +11,7 @@ intro = "Need help with Product development or IT? <br> You have come to right p
 
 ## Native Apps
 
-I make apps for my clients on the fallowing plattforms:
+Jag bygger app till följande platformar
 
 ### platforms
 - Andriod
