@@ -6,18 +6,11 @@ weight = 2
 disable_toc = true
 +++
 
-## NOTE WIP:
+## Get in touch
 
-This page has dummy data
+Send a mail to [hello.vumwi@aleeas.com](mailto:hello.vumwi@aleeas.com)
 
-
-## Contact Info
-
-You can reachout through:
-
-- phone 1234 56 78 90
-- ...
-
+Or use the form bellow:
 
 
 <form class="contact-form">
@@ -31,6 +24,7 @@ You can reachout through:
     <textarea placeholder="Message *"></textarea>
   </div>
   <div>
-    <button> Send message</button>
+    <button disabled> Send message</button>
   </div>
+  <small> Form backend under construction</small>
 </form>
