@@ -6,25 +6,35 @@ weight = 2
 disable_toc = true
 +++
 
-## Get in touch
-
-Send a mail to [hello.vumwi@aleeas.com](mailto:hello.vumwi@aleeas.com)
-
-Or use the form bellow:
-
-
-<form class="contact-form">
-  <h2>Contact Form</h2>
-  <div class="input-fields">
-    <input type="text" class="input" placeholder="Your Name"\>
-    <input type="text" class="input" placeholder="Your Emaill "\>
-    <input type="text" class="input" placeholder="Your Phone "\>
+<div class="contact-form">
+  <div class="first-container">
+    <div class="info-container">
+      <div><img class="icon" />
+        <h3>Address</h3>
+        <p>Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US</p>
+      </div>
+      <div> <img class="icon" />
+        <h3>Lets Talk</h3>
+        <p>+1 800 1236879</p>
+      </div>
+      <div><img class="icon" />
+        <h3>General Support</h3>
+        <p>contact@example.com</p>
+      </div>
+    </div>
   </div>
-  <div class="msg">
-    <textarea placeholder="Message *"></textarea>
+  <div class="second-container">
+    <h2>Send Us A Message</h2>
+    <form>
+      <div class="form-group"><label for="name-input">Tell us your name*</label><input id="name-input" type="text"
+          placeholder="First name" required="required" /><input type="text" placeholder="Last name"
+          required="required" /></div>
+      <div class="form-group"><label for="email-input">Enter your email*</label><input id="email-input" type="text"
+          placeholder="Eg. example@email.com" required="required" /></div>
+      <div class="form-group"><label for="phone-input">Enter phone number*</label><input id="phone-input" type="text"
+          placeholder="Eg. +1 800 000000" required="required" /></div>
+      <div class="form-group"><label for="message-textarea">Message</label><textarea id="message-textarea"
+          placeholder="Write us a message"></textarea></div><button>Send message</button>
+    </form>
   </div>
-  <div>
-    <button disabled> Send message</button>
-  </div>
-  <small> Form backend under construction</small>
-</form>
+</div>

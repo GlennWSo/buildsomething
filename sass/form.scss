@@ -1,71 +1,186 @@
-form {
-  /* width: 100%; */
-  margin: 0 auto;
-  text-align: center;
-  border-top: 5px solid var(--primary-color);
-  background-color: var(--toc-background-color);
-  padding: 1em;
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
 
-  h2 {
-    color: var(--primary-text-color);
-    text-transform: capitalize;
-    font-size: 1.5em;
+$bg: #f2f2f2;
+$white: #fff;
+$black: #333;
+$gray: #999;
+$green: #00b3aa;
+$border: 1px solid #e6e6e6;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+  /* height: 100vh; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  /* background: $bg; */
+}
+
+.content {
+  max-width: unset;
+}
+
+
+.contact-form {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  background: var(--primary-color);
+  padding-top: 10px;
+  margin: 50px 0;
+
+  &>* {
+    width: 50%;
   }
 
-  p {}
-}
+  .first-container {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://colorlib.com/etc/cf/ContactFrom_v17/images/bg-01.jpg") center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-button {
-  padding: 1em 1.3em;
-  /* color: #ffffff; */
-  /* text-transform: uppercase; */
-  border: 1px solid var(--primary-link-color);
-  /* background: blue; */
-  /* cursor: pointer; */
-  /* border-radius: 3px; */
-  /* margin-right: 40px; */
-  /* margin-top: 15px; */
-}
+    .info-container {
+      div {
+        margin: 24px 0;
 
-button:hover {
-  /* border: 1px solid --var(toc)-highlight-text-color; */
-  background: var(--primary-link-color);
-  /* background: blue; */
-}
+        h3 {
+          color: $white;
 
+          font: {
+            size: 18px;
+            weight: 400;
+          }
 
+          line-height: 1.2;
+          padding-bottom: 10px;
+        }
 
-.input-fields {
-  width: 45%;
-  float: left;
-  overflow: hidden;
-  margin-right: 1em;
-  margin-top: 2.5em;
+        &:first-of-type p {
+          max-width: 260px;
+          color: $gray;
+        }
 
-  input {
-    /* width: 354px; */
-    padding: 0.6em 1.3em;
-    margin-bottom: 1em;
-    border: 0;
-    /* border-radius: 3px; */
+        p {
+          font-size: 16px;
+          line-height: 1.6;
+          color: $green;
+        }
+      }
+    }
   }
 
+  .second-container {
+    padding: 30px;
+    background: var(--toc-background-color);
+
+    h2 {
+      font: {
+        size: 30px;
+        weight: 400;
+      }
+
+      line-height: 1.2;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      .form-group {
+        margin-bottom: 10px;
+
+        * {
+          min-height: 55px;
+          border: $border;
+          padding: 0 20px;
+        }
+
+        label {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          border: $border;
+          font-size: 16px;
+          /* color: $black; */
+          text-transform: uppercase;
+          margin-top: -1px;
+        }
+
+        &:first-of-type input {
+          width: 50.1%;
+          margin-right: -5px;
+        }
+
+        input {
+          width: 100%;
+          font-size: 15px;
+          margin-top: -2px;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+          color: $gray;
+        }
+
+        textarea {
+          width: 100%;
+          min-height: 80px;
+          resize: none;
+          padding: 10px 20px;
+          margin-top: -1px;
+        }
+      }
+
+      button {
+        width: 200px;
+        height: 50px;
+        background: $green;
+        color: $white;
+
+        font: {
+          size: 17px;
+          weight: 600;
+        }
+
+        text-transform: uppercase;
+        border: 0;
+        position: relative;
+        left: calc(50% - 100px);
+        cursor: pointer;
+
+        &:hover {
+          background: $black;
+        }
+      }
+    }
+  }
 }
 
-.msg {
-  width: 45%;
-  float: left;
-  overflow: hidden;
-  margin-right: 1em;
-  margin-top: 2.5em;
+@media screen and (max-width: 800px) {
+  .contact-form {
+    width: 90vw;
+  }
+}
 
-  textarea {
-    width: 354px;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    height: 160px;
-    border: 0;
-    /* border-radius: 3px; */
-    /* resize: none; */
+@media screen and (max-width: 700px) {
+  .contact-form {
+    flex-direction: column-reverse;
+
+    &>* {
+      width: 100%;
+    }
+
+    .first-container {
+      padding: 40px 0;
+    }
   }
 }
