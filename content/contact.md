@@ -2,7 +2,16 @@
 title = "Contact"
 description = "How to get in contact"
 weight = 2
+[extra]
+disable_toc = true
 +++
+
+## NOTE WIP:
+
+This page has dummy data
+
+
+## Contact Info
 
 You can reachout through:
 
