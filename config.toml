@@ -22,6 +22,10 @@ highlight_themes_css = [
 # Put all your custom variables here
 juice_logo_name = "GWS Consulting"
 juice_logo_path = "flat_blocks.svg"
+
+slogan = "Let's Build Something Together!"
+intro = "Need help with Product development or IT? \n You have come to right place"
+
 juice_extra_menu = [
     { title = "Github", link = "https://github.com/glennwso"}
 ]

@@ -29,10 +29,10 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <section class="text-center">
     <h1 class="heading-text" style="font-size: 50px">
-      Let's Build Something Together!
+      {{ config.extra.slogan }}
     </h1>
     <h3 class="title-text">
-      Hi my name is Glenn, trust me am a engineer...
+      {{ config.extra.intro | linebreaksbr | safe }}
     </h3>
     <div>
       <!-- <a class="github-button" href="https://github.com/huhu/juice" data-size="large" data-show-count="true" -->
