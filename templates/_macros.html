@@ -33,9 +33,11 @@
   {% endfor %}
 
   {% if lang == "en"%}
-  <a class="nav-item subtitle-text" href="/sv{{ path }}">sv</a>
+  <a class="nav-item subtitle-text" href="/sv{{ path }}"><img style="height: 1.3em; float: right;"
+      src="/flag-for-sweden-svgrepo-com.svg"></a>
   {% else %}
-  <a class="nav-item subtitle-text" href="{{ path }}">en</a>
+  <a class="nav-item subtitle-text" href="{{ path }}"><img style="height: 1.3em; float: right;"
+      src="/flag-for-united-kingdom-svgrepo-com.svg"></a>
   {% endif %}
 
 </nav>
