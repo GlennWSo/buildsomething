@@ -1,6 +1,6 @@
-{% macro render_header() %}
-{% set section = get_section(path="_index.md") %}
-<a href="{{ section.permalink | safe }}">
+{% macro render_header(path) %}
+{% set root = get_section(path="_index.md") %}
+<a href="{{ root.permalink | safe }}">
   <div class="logo">
     <img src="{{ get_url(path=config.extra.juice_logo_path) }}" alt="logo">
     {{ config.extra.juice_logo_name }}
@@ -15,14 +15,29 @@
   {% endif %}
 
 
-  {% for page in section.pages %}
+  {% for page in root.pages %}
+  {% if lang == "en" %}
   <a class="nav-item subtitle-text" href="{{ page.permalink | safe }}">{{ page.title }}</a>
+  {% else %}
+  <a class="nav-item subtitle-text" href="/{{lang}}{{ page.path }}">{{ page.title }}</a>
+  {% endif %}
   {% endfor %}
 
-  {% for path in section.subsections %}
+  {% for path in root.subsections %}
   {% set child = get_section(path=path) %}
-  <a class="nav-item subtitle-text" href="{{ child.permalink }}">{{ child.title }}</a>
+  {% if lang == "en"%}
+  <a class="nav-item subtitle-text" href="{{ child.permalink | safe }}">{{ child.title }}</a>
+  {% else %}
+  <a class="nav-item subtitle-text" href="/{{lang}}{{ child.path }}">{{ child.title }}</a>
+  {% endif %}
   {% endfor %}
+
+  {% if lang == "en"%}
+  <a class="nav-item subtitle-text" href="/sv{{ path }}">sv</a>
+  {% else %}
+  <a class="nav-item subtitle-text" href="{{ path }}">en</a>
+  {% endif %}
+
 </nav>
 
 

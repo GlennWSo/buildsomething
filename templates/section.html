@@ -5,7 +5,13 @@
 
 {% block header %}
 <header class="box-shadow">
-  {{ macros::render_header() }}
+  {% if lang =="en" %}
+  {% set path = [""] | concat(with=section.components) | join(sep="/") %}
+  {% else %}
+  {% set path = [""] | concat(with=section.components | slice(start=1)) | join(sep="/") %}
+  {% endif %}
+
+  {{ macros::render_header(path=path) }}
 </header>
 {% endblock header %}
 
