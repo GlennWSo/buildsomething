@@ -20,10 +20,12 @@
   integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
   onload="renderMathInElement(document.body);"></script>
 
+<script src="https://unpkg.com/htmx.org@2.0.3"
+  integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
 
 {% endblock head %}
 
-<body>
+<body hx-boost="false">
   {% block header %}
 
   <header class="pos-absolute" style="background-color: transparent">
