@@ -20,7 +20,7 @@ disable_toc = true
       </div>
       <div><img class="icon" />
         <h3>General Support</h3>
-        <p>contact@example.com</p>
+        <p>{{ email() }}</p>
       </div>
     </div>
   </div>

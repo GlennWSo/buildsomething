@@ -1,6 +1,9 @@
 {% extends "juice/templates/index.html" %}
 
 {% block head %}
+
+<link rel="icon" href="/flat_blocks.svg" sizes="any" type="image/svg+xml">
+
 <!-- <link rel="stylesheet" href="{{ get_url(path='carbon.css') }}"> -->
 <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
 <!-- <link rel="stylesheet" href="{{ get_url(path='form.css') }}"> -->
@@ -160,6 +163,20 @@
         </span>
         GitHub
       </a>
+
+      {% if lang =="sv"%}
+      <a href="/sv/contact">
+        <span class="inline-icon-container">
+        </span>
+        Kontakt
+      </a>
+      {% else %}
+      <a href="/contact">
+        <span class="inline-icon-container">
+        </span>
+        Contact
+      </a>
+      {% endif %}
 
     </div>
   </footer>
