@@ -33,9 +33,10 @@
   {% endfor %}
 
   {% if lang == "en"%}
-  <a class="nav-item subtitle-text" href="/sv{{ path }}"><img class="flag" src="/flag-for-sweden-svgrepo-com.svg"></a>
+  <a class="nav-item subtitle-text" href="/sv{{ path }}"><img alt="swedish" class="flag"
+      src="/flag-for-sweden-svgrepo-com.svg"></a>
   {% else %}
-  <a class="nav-item subtitle-text" href="{{ path }}"><img class="flag"
+  <a class="nav-item subtitle-text" href="{{ path }}"><img alt="english" class="flag"
       src="/flag-for-united-kingdom-svgrepo-com.svg"></a>
   {% endif %}
 
