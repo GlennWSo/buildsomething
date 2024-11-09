@@ -41,13 +41,22 @@
   {% endif %}
 
 
-  <div class='toggle-switch'>
+  <div class='toggle-dark'>
     <label>
-      <input type='checkbox' _="on click or load if me.checked
+      <input type='checkbox' _="on click 
+            log(the first <body/>) then
+      if me.checked
         log('checked')
         add .dark to the closest <body/>
       else
         remove .dark from the closest <body/>
+      end
+      end
+      on load
+      if (the first <body/> match .dark)
+        log('loaded as dark') then
+        set me.checked to true then
+        log(me) 
         ">
       <span class='slider'></span>
     </label>
