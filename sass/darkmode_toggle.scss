@@ -1,37 +1,23 @@
 :root {
-  --light: #d8dbe0;
-  --dark: #28292c;
-  --link: rgb(27, 129, 112);
-  --link-hover: rgb(24, 94, 82);
+  /*--primary-color: var(--primary-color); */
+  /* --primary-text-color: var(--primary-text-color); */
 }
 
-* {
-  /* padding: 0; */
-  /* margin: 0; */
-  /* box-sizing: border-box; */
-}
 
-body {
-  /* background-color: #cfafaf; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 100vh; */
-}
 
-$diameter: 100;
+$diameter: 50px;
 
 .toggle-switch {
   position: relative;
-  width: 200px;
+  width: $diameter * 2;
 }
 
 label {
   position: absolute;
   width: 100%;
-  height: 100px;
-  background-color: var(--dark);
-  border-radius: 50px;
+  height: $diameter;
+  background-color: var(--primary-text-color);
+  border-radius: $diameter / 2;
   cursor: pointer;
 }
 
@@ -44,45 +30,29 @@ input {
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 50px;
+  border-radius: $diameter / 2;
   transition: 0.3s;
 }
 
 input:checked~.slider {
-  background-color: var(--light);
+  background-color: var(--primary-color);
 }
 
 .slider::before {
   content: "";
   position: absolute;
-  top: 13px;
-  left: 16px;
-  width: 75px;
-  height: 75px;
+  top: $diameter * 0.13;
+  left: $diameter * 0.16;
+  width: $diameter * 0.75;
+  height: $diameter * 0.75;
   border-radius: 50%;
-  box-shadow: inset 28px -4px 0px 0px var(--light);
-  background-color: var(--dark);
+  box-shadow: inset $diameter * .28 $diameter * -.04 0px 0px var(--primary-color);
+  background-color: var(--primary-text-color);
   transition: 0.3s;
 }
 
 input:checked~.slider::before {
-  transform: translateX(95px);
-  background-color: var(--dark);
+  transform: translateX($diameter * 0.95);
+  background-color: var(--primary-text-color);
   box-shadow: none;
-}
-
-a {
-  position: relative;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  top: 150px;
-  left: 10px;
-  font-size: 10px;
-  text-decoration: none;
-  color: var(--link);
-  font-weight: bold;
-  text-align: center;
-}
-
-a:hover {
-  color: var(--link-hover);
 }
