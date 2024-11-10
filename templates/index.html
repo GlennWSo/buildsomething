@@ -31,11 +31,6 @@
 <meta charset="UTF-8">
 
 <script src="https://unpkg.com/hyperscript.org@0.9.13"></script>{% endblock head %}
-{% block header %}
-
-<header class="pos-absolute" style="background-color: transparent">
-  {{ macros::render_header(path="/") }}
-</header>
 
 
 {% block body_tag%}
@@ -44,6 +39,11 @@
   {% endblock body_tag %}
 
 
+  {% block header %}
+
+  <header class="pos-absolute" style="background-color: transparent">
+    {{ macros::render_header(path="/") }}
+  </header>
   <div class="hero">
 
     {% block hero %}

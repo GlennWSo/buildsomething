@@ -16,7 +16,8 @@
 {% endblock header %}
 
 {% block content %}
-
-<div class="heading-text">{{ page.description }}</div>
-{{ page.content | safe }}
+<div class="content text ">
+  <div class="heading-text">{{ page.description }}</div>
+  {{ page.content | safe }}
+</div>
 {% endblock content %}
