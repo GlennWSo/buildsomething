@@ -4,11 +4,19 @@ description = "IT Services and Consulting"
 weight = 3
 +++
 
-## TODO
+## self hosting vs managed hosting
 
-```rust
-fn main() {
-  println!("Hello, World!");
-}
-  
-```
+I offer both...
+
+## office needs
+- collaboration platform
+- teams chat
+- cloud storage
+- email
+- internal web
+
+## Servers
+- Databases
+- gp-servers
+- backups
+- nas

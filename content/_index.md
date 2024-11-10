@@ -1,69 +1,25 @@
 +++
 sort_by = "weight"
-title = "My Services"
+title = "Our Services"
 [extra]
 intro = "Need help with Product development or IT? <br> You have come to right place"
 +++
 
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut magna vitae libero
+accumsan pretium vitae et massa. Morbi dolor est, ullamcorper eu ante vitae, scelerisque
 
 # Software Development
 
-
-## Native Apps
-
-I make apps for my clients on the fallowing plattforms:
-
-### platforms
-- Andriod
-- Linux
-- macOS
-- windows
-
-## Embedded software/firmware
-
-I can help you make your tiny devices go beep boop...
-- IoT
-- RasberryPi
-- stm32
-- nrf58
-- bluetooth
-
-## Backend Development
-
-- Restfull API
-- Database integration
-- Python
-- Rust
-
-
-## Web Frontend
-
-I have a solid grasp on Javascript, html and css. 
-My speciality is wasm, a techonligy that is perfect for frontends that need preform heavy computation.
-Wasm is also very usefull for crossplatfrom projects where browsers is one of the targets.
-
-I can help you with:
-- landing pages
-- E-commerce
-- 3D animations
-- WASM
-
-
-## 3D Models and Graphics
-
-Lorem Ipsum...
-
-- bevy
-- glsl
-- wgls
-- sdf
-- trimesh
-- csg
-- 3d scanned data processing
+bibendum ligula. Etiam sed lobortis quam. Pellentesque habitant morbi tristique
+senectus et netus et malesuada fames ac turpis egestas. Donec ac ullamcorper quam.
 
 
 # Product Development
+
+erat ut pellentesque. Etiam nec orci odio. Donec mattis luctus libero ac gravida. Mauris
+volutpat risus in interdum aliquam. Integer laoreet ex et risus pharetra, ut porttitor
+turpis tincidunt.
 
 - ## [System Engineering](product-dev#system)
 - ## [Component Sourcing](product-dev#component)
@@ -75,20 +31,4 @@ Lorem Ipsum...
 # IT
 
 
-## self hosting vs managed hosting
-
-I offer both...
-
-## office needs
-- collaboration platform
-- teams chat
-- cloud storage
-- email
-- internal web
-
-## Servers
-- Databases
-- gp-servers
-- backups
-- nas
-
+lorem ipusm ...
