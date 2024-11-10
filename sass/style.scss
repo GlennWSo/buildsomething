@@ -56,3 +56,9 @@ ul {
   background: green;
   width: 40%;
 }
+
+a.more {
+  color: var(--secondary-text-color);
+  background: var(--primary-color);
+  padding: 0 1em;
+}
