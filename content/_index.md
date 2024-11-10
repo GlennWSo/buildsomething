@@ -1,5 +1,6 @@
 +++
 sort_by = "weight"
+title = "My Services"
 [extra]
 intro = "Need help with Product development or IT? <br> You have come to right place"
 +++
