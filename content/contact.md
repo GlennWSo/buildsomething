@@ -2,7 +2,7 @@
 title = "Contact"
 description = "How to get in contact"
 weight = 10
-template = "contact.html"
+template = "page.html"
 [extra]
 disable_toc = true
 +++
@@ -10,16 +10,16 @@ disable_toc = true
 <div class="contact-form">
   <div class="first-container">
     <div class="info-container">
-      <div><img class="icon" />
-        <h3>Address</h3>
-        <p>Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US</p>
-      </div>
+      <!-- <div><img class="icon" /> -->
+        <!-- <h3>Address</h3> -->
+        <!-- <p>Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US</p> -->
+      <!-- </div> -->
       <div> <img class="icon" />
-        <h3>Lets Talk</h3>
-        <p>+1 800 1236879</p>
+        <h3>Phone Number</h3>
+        <a href="tel:+46123456789">+46 123 45 67 89 </a>
       </div>
       <div><img class="icon" />
-        <h3>General Support</h3>
+        <h3>Email</h3>
         <p>{{ email() }}</p>
       </div>
     </div>
