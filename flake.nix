@@ -41,6 +41,7 @@
           ffmpeg
           zola
           translate-shell
+          typos
         ];
       };
     });

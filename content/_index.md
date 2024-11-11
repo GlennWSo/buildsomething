@@ -5,17 +5,23 @@ title = "Our Services"
 intro = "Need help with Product development or IT? <br> You have come to right place"
 +++
 
+We help our clients with devloping their products and software. We also provide IT services for common office work needs and webhosting.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut magna vitae libero
-accumsan pretium vitae et massa. Morbi dolor est, ullamcorper eu ante vitae, scelerisque
+At {{ cname() }} we focus on robust technology and deterministic processes to build reliable products and services. Learn more about our methods [here](/robust_design).
+
 
 
 # Software Development 
 
-bibendum ligula. Etiam sed lobortis quam. Pellentesque habitant morbi tristique
-senectus et netus et malesuada fames ac turpis egestas. Donec ac ullamcorper quam.
+We develop software for the fallowing platforms:
+- [x] linux servers
+- [x] Desktop: Windows, Mac and Linux
+- [x] Mobile: Andriod and IPhone
+- [x] Web
+- [x] Embedded systems
 
-<a class="more" href="/software" >Jag vill veta mer</a>
+
+<a class="more" href="/software" >I would like to know more</a>
 
 
 # Product Development

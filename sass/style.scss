@@ -61,4 +61,11 @@ a.more {
   color: var(--secondary-text-color);
   background: var(--primary-color);
   padding: 0 1em;
+
+}
+
+a.more:hover {
+  background: var(--primary-link-color);
+  /* background: red; */
+  text-decoration: none;
 }
