@@ -7,8 +7,8 @@ intro = "Need help with Product development or IT? <br> You have come to right p
 
 We help our clients with devloping their products and software. We also provide IT services for common office work needs and webhosting.
 
-At {{ cname() }} we focus on robust technology and deterministic processes to build reliable products and services. Learn more about our methods [here](/robust_design).
-
+At {{ cname() }} we focus on robust technology and deterministic processes to build reliable products and services. 
+We do more then just help with build things, we help you grow by sharing our knowledge.
 
 
 # Software Development 
