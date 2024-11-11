@@ -1,7 +1,13 @@
-{% import "_macros.html" as macros %}
 {% extends "index.html" %}
 
-{% block title %}{{ section.title }} | {{ super() }} {% endblock title %}
+
+{% block append_head %}
+
+<link rel="stylesheet" type="text/css" href="{{ get_url(path='cards.css') }}" />
+
+{% endblock append_head %}
+
+{% block hero %}{% endblock hero%}
 
 {% block header %}
 <header class="box-shadow">
@@ -16,30 +22,50 @@
 
 {% endblock header %}
 
-
 {% block content %}
+<div class="content text">
+  <h1>
+    Freedom
+  </h1>
+  <p>
+    We specialize in opensource software for IT infrastructure.
 
-<ul class="list">
-  {% for card_path in section.subsections %}
-  {% set card = get_section(path=card_path) %}
-  <div class="card trunc" _="on click toggle .trunc on me">
-    <img class="icon" src="{{ card.extra.icon }}">
-    <h2> {{ card.title }} </h2>
-    <p class="text">
-      {{ card.content | markdown(inline=true) | safe }}
-    </p>
-    <div class="footer" _="on click halt the event's bubbling">
-      {% set footer = get_section(path=card.subsections[0]) %}
-      {{ footer.content | markdown(inline=true) | safe }}
-      <div>
-        {% for page in footer.pages %}
-        {{ page.content | markdown(inline=true) | safe }}
-        {% endfor %}
+    When we configure services for you we make all our custumizations and configuration-code available to you.
+    This way you have the freedom migrate easly. And better yet we offer migration assistance.
+  </p>
+
+  <h1>
+    IT Solutions
+  </h1>
+  <p>
+    Examples of things we can host for you or help you host it yourself.
+  </p>
+
+</div>
+<div class="card-container">
+  <ul class="list">
+    {% for card_path in section.subsections %}
+    {% set card = get_section(path=card_path) %}
+
+    <div class="card trunc" _="on click toggle .trunc on me">
+      <img class="icon" src="/{{ card.extra.icon }}">
+      <h2> {{ card.title }} </h2>
+      <p class="text">
+        {{ card.content | markdown(inline=true) | safe }}
+      </p>
+      <div class="footer" _="on click halt the event's bubbling">
+        {% set footer = get_section(path=card.subsections[0]) %}
+        {{ footer.content | markdown(inline=true) | safe }}
+        <div class="apps">
+          {% for page in footer.pages %}
+          {{ page.content | markdown(inline=true) | safe }}
+          {% endfor %}
+        </div>
+
       </div>
-
     </div>
-  </div>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</div>
 
 {% endblock content %}
