@@ -1,0 +1,45 @@
+{% import "_macros.html" as macros %}
+{% extends "index.html" %}
+
+{% block title %}{{ section.title }} | {{ super() }} {% endblock title %}
+
+{% block header %}
+<header class="box-shadow">
+  {% if lang =="en" %}
+  {% set path = [""] | concat(with=section.components) | join(sep="/") %}
+  {% else %}
+  {% set path = [""] | concat(with=section.components | slice(start=1)) | join(sep="/") %}
+  {% endif %}
+
+  {{ macros::render_header(path=path) }}
+</header>
+
+{% endblock header %}
+
+
+{% block content %}
+
+<ul class="list">
+  {% for card_path in section.subsections %}
+  {% set card = get_section(path=card_path) %}
+  <div class="card trunc" _="on click toggle .trunc on me">
+    <img class="icon" src="{{ card.extra.icon }}">
+    <h2> {{ card.title }} </h2>
+    <p class="text">
+      {{ card.content | markdown(inline=true) | safe }}
+    </p>
+    <div class="footer" _="on click halt the event's bubbling">
+      {% set footer = get_section(path=card.subsections[0]) %}
+      {{ footer.content | markdown(inline=true) | safe }}
+      <div>
+        {% for page in footer.pages %}
+        {{ page.content | markdown(inline=true) | safe }}
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+  {% endfor %}
+</ul>
+
+{% endblock content %}
