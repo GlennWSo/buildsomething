@@ -4,11 +4,11 @@ description = "Software Development Consulting"
 weight = 1
 +++
 
-## Native Apps
+# Native Apps
 
 I make apps for my clients on the fallowing plattforms:
 
-### platforms
+## platforms
 - Andriod
 - Linux
 - macOS

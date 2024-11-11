@@ -1,8 +1,6 @@
 +++
 sort_by = "weight"
 title = "Our Services"
-[extra]
-intro = "Need help with Product development or IT? <br> You have come to right place"
 +++
 
 We help our clients with devloping their products and software. We also provide IT services for common office work needs and webhosting.

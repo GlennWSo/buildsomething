@@ -1,5 +1,11 @@
 main {
-  padding: 50px 4%;
+  /* padding: 50px 4%; */
+  padding: 0;
+}
+
+.content {
+  padding: 4%;
+  padding-bottom: 0;
 }
 
 div.nav-outlinks {
@@ -23,6 +29,10 @@ div.nav-outlinks {
 footer div.nav-outlinks a {
   color: #fff;
   text-decoration: none;
+}
+
+footer {
+  margin-top: 2em;
 }
 
 .inline-icon-container svg {

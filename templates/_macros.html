@@ -10,25 +10,25 @@
 <nav>
   {% if config.extra.juice_extra_menu %}
   {% for menu in config.extra.juice_extra_menu %}
-  <a class="nav-item subtitle-text" href="{{ menu.link | safe }}">{{ menu.title }}</a>
+  <a class="nav-item subtitle-text" href="{{ menu.link | safe }}#top">{{ menu.title }}</a>
   {% endfor %}
   {% endif %}
 
 
   {% for page in root.pages %}
   {% if lang == "en" %}
-  <a class="nav-item subtitle-text" href="{{ page.permalink | safe }}">{{ page.title }}</a>
+  <a class="nav-item subtitle-text" href="{{ page.permalink | safe }}#top">{{ page.title }}</a>
   {% else %}
-  <a class="nav-item subtitle-text" href="/{{lang}}{{ page.path }}">{{ page.title }}</a>
+  <a class="nav-item subtitle-text" href="/{{lang}}{{ page.path }}#top">{{ page.title }}</a>
   {% endif %}
   {% endfor %}
 
   {% for path in root.subsections %}
   {% set child = get_section(path=path) %}
   {% if lang == "en"%}
-  <a class="nav-item subtitle-text" href="{{ child.permalink | safe }}">{{ child.title }}</a>
+  <a class="nav-item subtitle-text" href="{{ child.permalink | safe }}#top">{{ child.title }}</a>
   {% else %}
-  <a class="nav-item subtitle-text" href="/{{lang}}{{ child.path }}">{{ child.title }}</a>
+  <a class="nav-item subtitle-text" href="/{{lang}}{{ child.path }}#top">{{ child.title }}</a>
   {% endif %}
   {% endfor %}
 
@@ -86,3 +86,46 @@
   </div>
 </div>
 {% endmacro render_toc %}
+
+
+{% macro hero(slogan, intro)%}
+<div class="hero">
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <section class="text-center">
+    <h1 class="heading-text" style="font-size: 50px">
+      {{ slogan }}
+    </h1>
+    <h3 class="title-text">
+      {{ intro | safe }}
+    </h3>
+    <div>
+      <!-- <a class="github-button" href="https://github.com/huhu/juice" data-size="large" data-show-count="true" -->
+      <!-- aria-label="Star huhu/juice on GitHub">Star</a> -->
+      <!-- <a class="github-button" href="https://github.com/huhu/juice/fork" data-size="large" data-show-count="true" -->
+      <!-- aria-label="Fork huhu/juice on GitHub">Repos</a> -->
+    </div>
+  </section>
+  <img class="hero-image" style="width: 50%" src="{{ get_url(path='build-blocks.svg') }}">
+
+  <div class="explore-more text" onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+    Explore More ⇩
+  </div>
+  <style>
+    .hero section {
+      padding: 0 5rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      .hero section {
+        padding: 0 2rem;
+      }
+
+      .hero-image {
+        display: none
+      }
+    }
+  </style>
+
+</div>
+{% endmacro hero %}

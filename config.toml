@@ -33,6 +33,8 @@ juice_logo_path = "flat_blocks.svg"
 
 slogan = "Let's Build Something Together!"
 
+intro = "Need help with Product development or IT? <br> You have come to right place"
+
 email = "hello.vumwi@aleeas.com"
 # juice_extra_menu = [
 #     { title = "Github", link = "https://github.com/glennwso"}
