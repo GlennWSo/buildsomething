@@ -23,21 +23,19 @@ We develop software for the fallowing platforms:
 
 <a class="more" href="/software" >I would like to know more</a>
 
+# IT
+We help clients with IT-solutions for office needs, webhosting and development piplines.
 
+Do you want managed servers or host your own?
+We got you coverd in any case.
+
+<a class="more" href="/it" >Tell me more</a>
+
+
+<!--  TODO
 # Product Development
 
-erat ut pellentesque. Etiam nec orci odio. Donec mattis luctus libero ac gravida. Mauris
-volutpat risus in interdum aliquam. Integer laoreet ex et risus pharetra, ut porttitor
-turpis tincidunt.
+Need to develop hardware? We can help you with mechanical engineering, system engineering and pcb-design.
 
-## [System Engineering](product-dev#system)
-<!-- - ## [Component Sourcing](product-dev#component) -->
-<!-- - ## [PCB Design](product-dev#pcb) -->
-<!-- - ## [Mechanical Design](product-dev#mech) -->
-<!-- - ## [Structural Analysis](product-dev#fea) -->
-
-
-# IT
-
-
-lorem ipusm ...
+<a class="more" href="/product" >Find out more</a>
+ -->
