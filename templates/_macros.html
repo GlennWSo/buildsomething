@@ -59,6 +59,7 @@
       src="/flag-for-united-kingdom-svgrepo-com.svg" _="{{ hyper }}"></a>
   {% endif %}
 
+
   <div class='toggle-dark'>
     <label>
       <input type='checkbox' _="on click 
@@ -66,15 +67,16 @@
       if me.checked
         log('checked')
         add .dark to the closest <body/>
+        window.localStorage.setItem('darkmode', 'true')
       else
         remove .dark from the closest <body/>
+        window.localStorage.setItem('darkmode', 'false')
       end
+      log('darkmode') then log(window.localStorage.getItem('darkmode'))
       end
       on load
-      if (the first <body/> match .dark)
-        log('loaded as dark') then
-        set me.checked to true then
-        log(me) 
+      if window.localStorage.getItem('darkmode') == 'true'
+        send click to me
         ">
       <span class='slider'></span>
     </label>
