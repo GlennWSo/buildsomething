@@ -32,17 +32,32 @@
   {% endif %}
   {% endfor %}
 
-  {% if lang == "en"%}
-  <a class="nav-item subtitle-text" href="/sv{{ path }}"><img alt="swedish" class="flag"
-      src="/flag-for-sweden-svgrepo-com.svg" _="on click set path to window.location.pathname js(path) 
-        console.log(path.split('/'))
-        return path end 
-      log(it)"></a>
-  {% else %}
-  <a class="nav-item subtitle-text" href="{{ path }}"><img alt="english" class="flag"
-      src="/flag-for-united-kingdom-svgrepo-com.svg"></a>
-  {% endif %}
+  {% set hyper="on click halt the event then
+  set path to window.location.pathname js(path)
+  let arr = path.split('/');
+  if (arr[1] == 'sv') {
+  arr.shift();
+  arr.shift();
+  } else if (arr[0] == 'sv') {
+  arr.shift();
+  } else{
+  arr[0] = 'sv';
+  }
+  if (arr.slice(-1) == '' ) {
+  arr.pop();
+  }
+  arr.unshift(window.location.origin);
+  return arr.join('/') end
+  log(it)
+  then set window.location to it"%}
 
+  {% if lang == "en" %}
+  <a class="nav-item subtitle-text" href="/sv"><img alt="swedish" class="flag" src="/flag-for-sweden-svgrepo-com.svg"
+      _="{{ hyper }}"></a>
+  {% else %}
+  <a class="nav-item subtitle-text" href="/en"><img alt="swedish" class="flag"
+      src="/flag-for-united-kingdom-svgrepo-com.svg" _="{{ hyper }}"></a>
+  {% endif %}
 
   <div class='toggle-dark'>
     <label>
