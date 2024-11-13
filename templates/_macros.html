@@ -1,6 +1,6 @@
 {% macro render_header(path) %}
 {% set root = get_section(path="_index.md") %}
-<a href="{{ root.permalink | safe }}">
+<a href="{{ root.permalink | safe }}#top">
   <div class="logo">
     <img src="{{ get_url(path=config.extra.juice_logo_path) }}" alt="logo">
     {{ config.extra.juice_logo_name }}
@@ -34,7 +34,10 @@
 
   {% if lang == "en"%}
   <a class="nav-item subtitle-text" href="/sv{{ path }}"><img alt="swedish" class="flag"
-      src="/flag-for-sweden-svgrepo-com.svg"></a>
+      src="/flag-for-sweden-svgrepo-com.svg" _="on click set path to window.location.pathname js(path) 
+        console.log(path.split('/'))
+        return path end 
+      log(it)"></a>
   {% else %}
   <a class="nav-item subtitle-text" href="{{ path }}"><img alt="english" class="flag"
       src="/flag-for-united-kingdom-svgrepo-com.svg"></a>

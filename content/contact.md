@@ -1,8 +1,8 @@
 +++
 title = "Contact"
-description = "How to get in contact"
+description = "Hello World"
 weight = 10
-template = "contact.html"
+template = "page.html"
 [extra]
 disable_toc = true
 +++
