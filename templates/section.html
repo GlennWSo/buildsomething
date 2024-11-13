@@ -15,10 +15,12 @@
 </header>
 
 {% endblock header %}
+{% block hero%}
+{% endblock hero %}
 
 
 {% block content %}
-<div class="margin-left:20vw; margin-right: 20vw;">
+<div class="content text margin-left:20vw; margin-right: 20vw;">
   <div class="heading-text">{{ section.title }}</div>
   <ul>
     {% for page in section.pages %}

@@ -49,12 +49,14 @@
 
 {% block body_tag%}
 
-<body hx-boost="true" hx-target="next <main/>" hx-select="#main" hx-swap="outerHTML" id="top">
+<body hx-boost="true" hx-target="#main" hx-select="#main" hx-swap="outerHTML" id="top">
   {% endblock body_tag %}
 
 
   {% block header %}
-  <header class="pos-absolute" style="background-color: transparent">
+  <!-- <header class="pos-absolute"> -->
+
+  <header class="box-shadow">
     {{ macros::render_header(path="/") }}
   </header>
   {% endblock header %}
