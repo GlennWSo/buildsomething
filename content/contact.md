@@ -26,16 +26,26 @@ disable_toc = true
   </div>
   <div class="second-container">
     <h2>Send Us A Message</h2>
-    <form>
-      <div class="form-group"><label for="name-input">Tell us your name*</label><input id="name-input" type="text"
-          placeholder="First name" required="required" /><input type="text" placeholder="Last name"
-          required="required" /></div>
-      <div class="form-group"><label for="email-input">Enter your email*</label><input id="email-input" type="text"
-          placeholder="Eg. example@email.com" required="required" /></div>
-      <div class="form-group"><label for="phone-input">Enter phone number*</label><input id="phone-input" type="text"
-          placeholder="Eg. +1 800 000000" required="required" /></div>
-      <div class="form-group"><label for="message-textarea">Message</label><textarea id="message-textarea"
-          placeholder="Write us a message"></textarea></div><button>Send message</button>
+    <form action="https://api.web3forms.com/submit" method="POST" hx-boost=false>
+    <input type="hidden" name="access_key" value="7c21a4d7-8cc2-4712-8fd4-6726b2fdb578">
+      <div class="form-group">
+        <label for="name-input">Tell us your name*</label>
+        <input id="name-input" type="text" name="name"
+          placeholder="Robin Exampleson" required="required"/>
+      </div>
+      <div class="form-group">
+        <label for="email-input">Enter your email*</label>
+        <input id="email-input" type="text" name="email"
+          placeholder="Eg. example@email.com" required="required" />
+      </div>
+      <!-- <div class="form-group"><label for="phone-input">Enter phone number*</label><input id="phone-input" type="text" -->
+          <!-- placeholder="Eg. +1 800 000000" required="required" /></div> -->
+      <div class="form-group">
+        <label for="message-textarea">Message</label>
+        <textarea id="message-textarea" name="message" required
+          placeholder="Write us a message"></textarea>
+      </div>
+      <button type="submit">Send message</button>
     </form>
   </div>
 </div>
