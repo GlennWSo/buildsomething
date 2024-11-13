@@ -2,7 +2,7 @@
 title = "Contact"
 description = "Hello World"
 weight = 10
-template = "page.html"
+template = "contact.html"
 [extra]
 disable_toc = true
 +++
