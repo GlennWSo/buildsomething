@@ -1,4 +1,4 @@
-{% macro render_header(path) %}
+{% macro render_header() %}
 {% set root = get_section(path="_index.md") %}
 <a href="{{ root.permalink | safe }}#top">
   <div class="logo">
