@@ -1,6 +1,12 @@
 {% macro render_header() %}
 {% set root = get_section(path="_index.md") %}
-<a href="{{ root.permalink | safe }}#top">
+{% if lang == "en" %}
+{% set root_lang = "" %}
+{% else %}
+{% set root_lang = lang %}
+{% endif %}
+
+<a href="{{ root.permalink | safe }}{{root_lang}}#top">
   <div class="logo">
     <img src="{{ get_url(path=config.extra.juice_logo_path) }}" alt="logo">
     {{ config.extra.juice_logo_name }}
