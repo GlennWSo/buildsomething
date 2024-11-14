@@ -32,6 +32,7 @@ Github and Cloudflare offer preconfigured automatic deployment pipelines for som
 For this website I opted for using [Zola](getzola.org) and so for the developer experiance has been great. But dont take my word for it, try it your self. 
 It is quite newbie friendly and the docs are great.
 
+<script src="https://asciinema.org/a/689648.js" id="asciicast-689648" async="true"></script>
 
 # Hosting
 
