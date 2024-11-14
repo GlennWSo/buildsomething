@@ -6,7 +6,7 @@ date = 2024-11-05
 
 We made a landing page. Read on if your curius about how it is made.
 
-
+<!-- more --> 
 
 # Static Sites
 
