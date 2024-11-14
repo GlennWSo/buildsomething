@@ -43,6 +43,7 @@
           translate-shell
           typos
           ispell
+          inkscape
         ];
       };
     });
