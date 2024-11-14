@@ -9,25 +9,31 @@ At {{ cname() }} we focus on robust technology and deterministic processes to bu
 We do more then just help with build things, we help you grow by sharing our knowledge.
 
 
-# Software Development 
 
-We develop software for the fallowing platforms:
+<div class="card" hx-get="/software" hx-push-url="true">
+ <h1> Software Development </h1>
+
 - [x] linux servers
 - [x] Desktop: Windows, Mac and Linux
 - [x] Mobile: Andriod and IPhone
 - [x] Web
 - [x] Embedded systems
 
+ <a class="readmore" href="/software">Read More&nbsp;&raquo;</a>
+</div>
 
-<a class="more" href="/software" >I would like to know more</a>
 
-# IT
+
+
+<div class="card" hx-get="/it" hx-push-url="true">
+<h1>IT</h2>
 We help clients with IT-solutions for office needs, webhosting and development piplines.
 
 Do you want managed servers or host your own?
 We got you coverd in any case.
 
-<a class="more" href="/it" >Tell me more</a>
+ <a class="readmore" href="/it">Read More&nbsp;&raquo;</a>
+</div>
 
 
 <!--  TODO
