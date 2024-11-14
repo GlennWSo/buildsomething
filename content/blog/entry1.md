@@ -1,6 +1,6 @@
 +++
 title = "Hello World"
-description = "A new Landing page for consuting services"
+description = "A new Landing page for consulting services"
 date = 2024-11-05
 +++
 
