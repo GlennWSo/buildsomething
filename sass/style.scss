@@ -90,3 +90,16 @@ a.more:hover {
     border-radius: 1em;
   }
 }
+
+ul {
+  list-style: none;
+}
+
+li.blog {
+  margin-bottom: 1.5em;
+  cursor: pointer;
+}
+
+.article-body {
+  padding: 0;
+}

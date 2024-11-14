@@ -22,9 +22,9 @@
 {% block content %}
 <div class="content text margin-left:20vw; margin-right: 20vw;">
   <div class="heading-text">{{ section.title }}</div>
-  <ul>
+  <ul class="blog">
     {% for page in section.pages %}
-    <li>
+    <li class="blog card" hx-get="{{ page.permalink | safe }}">
       <div>
         <a href="{{ page.permalink | safe }}">
           <strong class="title article-title">{{ page.title }}</strong>

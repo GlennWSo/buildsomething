@@ -26,6 +26,8 @@ main {
     margin-top: 1em;
   }
 
+  cursor: pointer;
+
   border: 3px solid var(--primary-text-color);
   border-radius: 25px;
   margin: 0 0 0 0;
@@ -106,6 +108,10 @@ main {
 
   &:not(:last-of-type) {
     margin-bottom: 20px;
+  }
+
+  .footer {
+    cursor: default;
   }
 
 }
