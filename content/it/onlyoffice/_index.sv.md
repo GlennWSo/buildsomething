@@ -5,8 +5,6 @@ weight = 2
 icon ="./onlyoffice.png"
 +++
 
-OnlyOffice is a free software
-office suite and ecosystem of collaborative applications. It features online
-editors for text documents, spreadsheets, presentations, forms and PDFs, and the
-room-based collaborative platform. We integrate offer onlyoffice integrated with nextcloud.
-
+OnlyOffice är en gratis kontorssvit och ekosystem av samarbetande applikationer. Det finns online
+redigerare för textdokument, kalkylblad, presentationer, formulär och PDF-filer, och
+rumsbaserad samarbetsplattform. Vi integrerar detta erbjudande med nextcloud.
