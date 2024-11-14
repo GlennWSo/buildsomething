@@ -32,6 +32,7 @@
       packages.default = prod_homepage;
       packages.static = static_homepage;
       devShells.default = pkgs.mkShell {
+        name = "ssg";
         buildInputs = with pkgs; [
           pkgs.vscode-langservers-extracted # html, css lsp
           simple-http-server
