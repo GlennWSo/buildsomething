@@ -29,10 +29,9 @@ We do more then just help with build things, we help you grow by sharing our kno
 
 <div class="card" hx-get="/it" hx-push-url="true">
 <h1>IT</h2>
-We help clients with IT-solutions for office needs, webhosting and development pipelines.
+We help clients with IT-solutions for office needs, web hosting and deployment pipelines.
 
-Do you want managed servers or host your own?
-We got you covered in any case.
+Do you want managed servers or host your own? It is your choice and we are to help either way.
 
  <a class="readmore" href="/it">Read More&nbsp;&raquo;</a>
 </div>
