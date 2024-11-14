@@ -1,6 +1,6 @@
 +++
 title = "Nextcloud"
-weight = 1
+weight = 3
 [extra]
 icon ="./nextcloud_icon_14.png"
 +++
