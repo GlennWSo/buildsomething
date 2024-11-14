@@ -3,7 +3,7 @@ sort_by = "weight"
 title = "Our Services"
 +++
 
-We help our clients with devloping their products and software. We also provide IT services for common office work needs and webhosting.
+We help our clients with developing their products and software. We also provide IT services for common office work needs and webhosting.
 
 At {{ cname() }} we focus on robust technology and deterministic processes to build reliable products and services. 
 We do more then just help with build things, we help you grow by sharing our knowledge.
@@ -15,7 +15,7 @@ We do more then just help with build things, we help you grow by sharing our kno
 
 - [x] linux servers
 - [x] Desktop: Windows, Mac and Linux
-- [x] Mobile: Andriod and IPhone
+- [x] Mobile: Android and IPhone
 - [x] Web
 - [x] Embedded systems
 
@@ -27,10 +27,10 @@ We do more then just help with build things, we help you grow by sharing our kno
 
 <div class="card" hx-get="/it" hx-push-url="true">
 <h1>IT</h2>
-We help clients with IT-solutions for office needs, webhosting and development piplines.
+We help clients with IT-solutions for office needs, webhosting and development pipelines.
 
 Do you want managed servers or host your own?
-We got you coverd in any case.
+We got you covered in any case.
 
  <a class="readmore" href="/it">Read More&nbsp;&raquo;</a>
 </div>

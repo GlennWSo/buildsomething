@@ -12,10 +12,10 @@ intro = "Behöver du hjälp med produktutveckling eller IT? <br> Du har kommit t
 
 ## Native Apps
 
-Jag bygger app till följande platformar
+Jag bygger app till följande platformer
 
 ### platforms
-- Andriod
+- Android
 - Linux
 - macOS
 - windows
@@ -24,7 +24,7 @@ Jag bygger app till följande platformar
 
 I can help you make your tiny devices go beep boop...
 - IoT
-- RasberryPi
+- RaspberryPi
 - stm32
 - nrf58
 - bluetooth
@@ -41,7 +41,7 @@ I can help you make your tiny devices go beep boop...
 
 I have a solid grasp on Javascript, html and css. 
 My speciality is wasm, a techonligy that is perfect for frontends that need preform heavy computation.
-Wasm is also very usefull for crossplatfrom projects where browsers is one of the targets.
+Wasm is also very useful for crossplatfrom projects where browsers is one of the targets.
 
 I can help you with:
 - landing pages

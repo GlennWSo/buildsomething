@@ -10,11 +10,11 @@ We help clients build software for all the major OS platforms, the web and for e
 
 # Mobile
 - [x] iPhone
-- [x] Andriod
+- [x] Android
 
 # Embedded
 - [x] IoT
-- [x] RasberryPi
+- [x] RaspberryPi
 - [x] stm32
 - [x] nrf58
 - [x] bluetooth
