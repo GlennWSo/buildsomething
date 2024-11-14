@@ -4,61 +4,27 @@ description = "Software Development Consulting"
 weight = 1
 +++
 
-# Native Apps
 
-I make apps for my clients on the fallowing plattforms:
-
-## platforms
-- Andriod
-- Linux
-- macOS
-- windows
-
-## Embedded software/firmware
-
-I can help you make your tiny devices go beep boop...
-- IoT
-- RasberryPi
-- stm32
-- nrf58
-- bluetooth
-
-## Backend Development
-
-- Restfull API
-- Database integration
-- Python
-- Rust
+We help clients build software for all the major OS platforms, the web and for embedded systems. Using rust (a modern system programing language) we produce high performance and reliable cross-platform software.
 
 
-## Web Frontend
+# Mobile
+- [x] iPhone
+- [x] Andriod
 
-I have a solid grasp on Javascript, html and css. 
-My speciality is wasm, a techonligy that is perfect for frontends that need preform heavy computation.
-Wasm is also very usefull for crossplatfrom projects where browsers is one of the targets.
+# Embedded
+- [x] IoT
+- [x] RasberryPi
+- [x] stm32
+- [x] nrf58
+- [x] bluetooth
 
-I can help you with:
-- landing pages
-- E-commerce
-- 3D animations
-- WASM
-
-
-## 3D Models and Graphics
-
-Lorem Ipsum...
-
-- bevy
-- glsl
-- wgls
-- sdf
-- trimesh
-- csg
-- 3d scanned data processing
-
-```rust
-fn main() {
-  println!("Hello, World!");
-}
-  
-```
+# Web Development
+- [x] Frontend
+- [x] Backend
+- [x] Database integration
+- [x] JavaScript
+- [x] css
+- [x] Wasm
+- [x] Python
+- [x] Rust

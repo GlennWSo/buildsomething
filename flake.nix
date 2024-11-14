@@ -42,6 +42,7 @@
           zola
           translate-shell
           typos
+          ispell
         ];
       };
     });
