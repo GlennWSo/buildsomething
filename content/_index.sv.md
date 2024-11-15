@@ -12,7 +12,7 @@ Vi hjälper våra kunder med att utveckla deras produkter och mjukvara. Vi tillh
 På {{ cname() }} fokuserar
 vi på robust teknik och deterministiska processer för att bygga tillförlitliga produkter
 och tjänster. Vi gör mer än att bara hjälpa till med att bygga saker, vi hjälper dig att
-växa genom att dela med oss​av vår kunskap.
+växa genom att dela med oss av vår kunskap.
 
 
 <div class="card" hx-get="/software" hx-push-url="true">

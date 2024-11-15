@@ -14,6 +14,7 @@ build_search_index = true
 default_language = "en"
 [languages.sv]
 build_search_index = true
+title = "GWS Consulting"
 # generate_feeds = true # there will be a feed for swedish content
 
 [markdown]
