@@ -1,2 +1,5 @@
 .direnv
 public
+*/cache
+*/tmp
+node_modules
