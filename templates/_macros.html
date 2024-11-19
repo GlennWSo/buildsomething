@@ -66,27 +66,33 @@
   {% endif %}
 
 
-  <div class='toggle-dark'>
-    <label>
-      <input type='checkbox' _="on click 
-            log(the first <body/>) then
-      if me.checked
-        log('checked')
-        add .dark to the closest <body/>
+  <a class="nav-item">
+    <!-- <label> -->
+    <img class="flag" src="/daynight.svg" _="on click 
+      halt the event then
+      set x to the first <body/>
+      
+      log(the first <body/>) then
+      if x do not match .dark
+        add .dark to x
         window.localStorage.setItem('darkmode', 'true')
       else
-        remove .dark from the closest <body/>
+        remove .dark from x
         window.localStorage.setItem('darkmode', 'false')
       end
       log('darkmode') then log(window.localStorage.getItem('darkmode'))
       end
+
       on load
+      set x to the first <body/>
       if window.localStorage.getItem('darkmode') == 'true'
-        send click to me
+        add .dark to x
+      else
+        remove .dark from x
         ">
-      <span class='slider'></span>
-    </label>
-  </div>
+    <!-- <span class='slider'></span> -->
+    <!-- </label> -->
+  </a>
 
 
   <!-- if i am <:checked/> -->
