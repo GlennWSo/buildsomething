@@ -45,6 +45,7 @@
           typos
           ispell
           inkscape
+          wrangler
         ];
       };
     });
