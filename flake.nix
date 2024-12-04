@@ -46,6 +46,7 @@
           ispell
           inkscape
           wrangler
+          pandoc
         ];
       };
     });
